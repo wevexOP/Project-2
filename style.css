@@ -10,10 +10,10 @@
 }
 /*Styling the color of the body*/
 .header {
-    padding: 20px;
+    padding: 30pxpx;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: #023826;
+    color: #0e9b01;
 }
 /*Specifying the fonts and font colors used on the webpage.*/
 .header h1 {
@@ -45,7 +45,7 @@
  /*Styling the div ul and li elements*/
  
 li {
-    color: #dfe2e5;
+    color: #0e9b01;
     text-decoration: none;
     display: flex;
     display: inline;
@@ -74,7 +74,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("./assets/images/digital-marketing-meeting.jpg");
+    background-image: url("./assets/surf-guy.jpeg");
     background-size: cover;
     background-position: center;
 }
@@ -219,4 +219,3 @@ p {
     font-size: 20px;
 }
 /*foot obsolete*/
-Footer
