@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*Styling the format and layout of the webpage*/
+
+ body {
+    background-color: #d9dcd6;
+}
+/*Styling the color of the body*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*Specifying the fonts and font colors used on the webpage.*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+ /*Styling the headers*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+ /*Styling the headers*/
+.header div {
+    padding: 20px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+ /*Styling the headers as well as determining the header fonts and font colors*/
+.header div ul {
+    list-style-type: none;
+}
+ /*Styling the headers*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+ /*Styling the div ul and li elements*/
+ 
+li {
+    color: #dfe2e5;
+    text-decoration: none;
+    display: flex;
+    display: inline;
+    text-align: right;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    row-gap: 20px;
+
+}
+
+a {
+   color: #d9dcd6;
+   text-decoration: none;
+   margin-right: 20px;
+}
+   
+/*Set elemnet a tow white.*/
+p {
+    font-size: 16px;
+}
+/*Scaled the font size on element p.*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./assets/images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*Formatting, image alignment, for the hero class element*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*Float-left specs*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*float-right specs*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/*Formating for the content class element*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*color,size, fonts and formating specs for benefits class element*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*color and size specs for benefit-lead class element*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*color and size specs for benefit-brand class element*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*color and size specs for benefit-cost class element*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*sizing specs for h3 element*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*sizing specs for h3 element*/
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*sizing specs for h3 element*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*Image sizing.*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*Image sizing.*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*Image sizing.*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*Card specs for SEO*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*Card specs for online rep mngmnt*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*Card specs for Social Media Marketing 'SMM'.*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/*Image sizing.*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+/*Image sizing.*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+/*Image sizing.*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*h2 element sizing SEO.*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*h2 element sizing online rep mngmnt.*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*h2 element sizing Social Media Marketing 'SMM'.*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*foot obsolete*/
+.footer h2 {
+    font-size: 20px;
+}
+/*foot obsolete*/
+Footer
