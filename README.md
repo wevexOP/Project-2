@@ -1,4 +1,4 @@
-# chalenge-02
+# Project-2
 This is a new repository for my second challenge in class.
 
 ## User Story
